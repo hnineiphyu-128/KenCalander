@@ -51,4 +51,16 @@ And finally Now, open the Kernal.php file and scroll down to the routeMiddleware
 <br />
 Conclusion<br />
 I would like to thank you for the time you've spent reading this article. I hope you've enjoyed it<br />
+<br />
+<br />
+Using Tultorial<br />
+<br />
+Calling for calander json<br />
+\$your_year_month='2023-06';<br />
+CalendarService::getcalendarjson($your_year_month);<br />
+<br />
+Calling for calander view<br />
+getcalendar/your_year_month<br />
+<br />
+your year month format is must be 'yyyy-mm'.<br />
 
