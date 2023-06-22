@@ -4,28 +4,28 @@ Calander Json and view, timetable coming soon <br />
 first <br />
 copy down in your composer.json<br />
 "repositories": [<br />
-    {<br />
-        "type": "vcs",<br />
-        "url": "https://github.com/hnineiphyu-128/KenCalander"<br />
-    }<br />
+&nbsp;{<br />
+&nbsp;&nbsp;"type": "vcs",<br />
+&nbsp;&nbsp;"url": "https://github.com/hnineiphyu-128/KenCalander"<br />
+&nbsp; }<br />
 ]<br />
 <br />
 And then, the updated composer.json file should look as follows:<br />
 <br />
 {<br />
-    "name": "laravel/laravel",<br />
-    "type": "project",<br />
-    "description": "The Laravel Framework.",<br />
-    "keywords": ["framework", "laravel"],<br />
-    "license": "MIT",<br />
-    // here you go<br />
-    "repositories": [<br />
-        {<br />
-            "type": "vcs",<br />
-            "url": "https://github.com/hnineiphyu-128/KenCalander"<br />
-        }<br />
-    ],<br />
-    // ... so on<br />
+&nbsp;"name": "laravel/laravel",<br />
+&nbsp;"type": "project",<br />
+&nbsp;"description": "The Laravel Framework.",<br />
+&nbsp;"keywords": ["framework", "laravel"],<br />
+&nbsp;"license": "MIT",<br />
+&nbsp;// here you go<br />
+&nbsp;"repositories": [<br />
+&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;"type": "vcs",<br />
+&nbsp;&nbsp;&nbsp; "url": "https://github.com/hnineiphyu-128/KenCalander"<br />
+&nbsp;&nbsp;}<br />
+&nbsp;],<br />
+&nbsp;// ... so on<br />
 }<br />
 <br />
 Now composer will also look into this repository for any installable package. Execute the following command to install the package:<br />
