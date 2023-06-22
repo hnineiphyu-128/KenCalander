@@ -3,6 +3,7 @@
 namespace Ken\Calendar;
 
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Validator;
 
 class CalendarService
 {
@@ -15,7 +16,6 @@ class CalendarService
             }
             $year = Carbon::parse($year_month)->format('Y');
             $month = Carbon::parse($year_month)->format('m');
-
             if ($timeTable) {
                 $timeTableMonth = $timeTable['month'];
                 $timeTableYear = $timeTable['year'];
@@ -31,6 +31,7 @@ class CalendarService
             $firstday = date('w', strtotime($year."-".$month."-01"));
             $days = cal_days_in_month(CAL_GREGORIAN,$month,$year);
             $loopCount = (int)$days + (int)$firstday;
+            $dates = [];
             $temp = [];
             $j = 1;
             for ($i=0; $i < $loopCount; $i++) {
@@ -65,6 +66,7 @@ class CalendarService
                 }
             }
         }
+
         // dd($dates);
         return $dates;
     }
