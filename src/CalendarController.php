@@ -1,6 +1,6 @@
 <?php
 
-namespace KenNebula\Calander;
+namespace Kennebula\Calander;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

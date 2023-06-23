@@ -37,7 +37,7 @@ As you can see, the package has been installed successfully. Now, open the confi
 /*<br />
  * Package Service Providers...<br />
  */<br />
-KenNebula\Calander\CalendarServiceProvider::class,<br />
+Kennebula\Calander\CalendarServiceProvider::class,<br />
 <br />
 And finally Now, open the Kernal.php file and scroll down to the routeMiddleware. In that array, there should be a section for the package services class. Add the following line of code in that section:<br />
 <br />
@@ -47,7 +47,7 @@ And finally Now, open the Kernal.php file and scroll down to the routeMiddleware
  * These middleware may be assigned to groups or used individually.<br />
  *<br />
  */<br />
-'CalendarService' => \KenNebula\Calander\CalendarService::class,<br />
+'CalendarService' => \Kennebula\Calander\CalendarService::class,<br />
 <br />
 Conclusion<br />
 I would like to thank you for the time you've spent reading this article. I hope you've enjoyed it<br />

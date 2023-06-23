@@ -1,6 +1,6 @@
 <?php
 
-namespace KenNebula\Calander;
+namespace Kennebula\Calander;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Validator;

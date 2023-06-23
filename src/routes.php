@@ -1,3 +1,3 @@
 <?php
 
-Route::get('getcalendar/{year_month}', 'KenNebula\Calander\CalendarController@getcalender');
+Route::get('getcalendar/{year_month}', 'Kennebula\Calander\CalendarController@getcalender');
