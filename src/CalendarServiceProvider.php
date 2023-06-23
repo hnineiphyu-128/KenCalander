@@ -1,6 +1,6 @@
 <?php
 
-namespace Kennebula\Calander;
+namespace Kennebula\Calendar;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,8 +14,8 @@ class CalendarServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->make('Kennebula\Calander\CalendarController');
-        $this->app->make('Kennebula\Calander\CalendarService');
+        $this->app->make('Kennebula\Calendar\CalendarController');
+        $this->app->make('Kennebula\Calendar\CalendarService');
         $this->loadViewsFrom(__DIR__.'/views', 'calendar');
     }
 
