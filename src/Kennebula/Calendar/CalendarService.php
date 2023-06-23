@@ -3,7 +3,6 @@
 namespace Kennebula\Calendar;
 
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Validator;
 
 class CalendarService
 {
