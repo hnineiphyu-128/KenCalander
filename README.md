@@ -30,7 +30,7 @@ And then, the updated composer.json file should look as follows:<br />
 <br />
 Now composer will also look into this repository for any installable package. Execute the following command to install the package:<br />
 <br />
-composer require ken/calendar<br />
+composer require kennebula/calendar<br />
 <br />
 As you can see, the package has been installed successfully. Now, open the config/app.php file and scroll down to the providers array. In that array, there should be a section for the package service providers. Add the following line of code in that section:<br />
 <br />
