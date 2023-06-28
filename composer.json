@@ -3,6 +3,11 @@
     "description": "This package will give calendar json",
     "type": "project",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kennebula\\Calendar\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "hnineiphyu-128",
